@@ -1,0 +1,430 @@
+[0.000000] (-) TimerEvent: {}
+[0.000175] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.002725] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.020719] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.021700] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[0.022434] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/brunoconti/workspace/build/turtlesim', '--', '-j8', '-l8'], 'cwd': '/home/brunoconti/workspace/build/turtlesim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HISTFILESIZE', '2000'), ('WARP_HONOR_PS1', '0'), ('USER', 'brunoconti'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/brunoconti'), ('OLDPWD', '/home/brunoconti/workspace/src'), ('TERM_PROGRAM_VERSION', 'v0.2024.04.16.08.02.stable_01'), ('DESKTOP_SESSION', 'ubuntu'), ('WARP_USE_SSH_WRAPPER', '1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/dev.warp.Warp.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1491'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1810'), ('WARP_COMBINED_PROMPT_COMMAND_GRID', '0'), ('GOROOT', '/usr/local/go'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3442'), ('COLCON_PREFIX_PATH', '/home/brunoconti/meu_workspace/src/ola_mundo/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'brunoconti'), ('JOURNAL_STREAM', '8:36046'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'brunoconti'), ('SSH_SOCKET_DIR', '~/.ssh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WARP_IS_LOCAL_SHELL_SESSION', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/go/bin:/home/brunoconti/go/binsource'), ('SESSION_MANAGER', 'local/Contis:@/tmp/.ICE-unix/1787,unix/Contis:/tmp/.ICE-unix/1787'), ('INVOCATION_ID', 'e03124bfea514d8992ee8696a19dcea0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'WarpTerminal'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/brunoconti/meu_workspace/src/ola_mundo/install/ola_mundo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('GOPATH', '/home/brunoconti/go'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/brunoconti/workspace/build/turtlesim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/brunoconti/meu_workspace/src/ola_mundo/install/ola_mundo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/brunoconti/meu_workspace/src/ola_mundo/install/ola_mundo:/opt/ros/humble')]), 'shell': False}
+[0.056940] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_generator_c\x1b[0m\n'}
+[0.062754] (turtlesim) StdoutLine: {'line': b'[  1%] Built target turtlesim__cpp\n'}
+[0.068006] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target turtlesim__rosidl_generator_c\n'}
+[0.071834] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_copy_turtlesim\n'}
+[0.073261] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.073728] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.073851] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.081416] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_c\x1b[0m\n'}
+[0.082748] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.089182] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.092974] (turtlesim) StdoutLine: {'line': b'[ 21%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[0.093231] (turtlesim) StdoutLine: {'line': b'[ 31%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[0.096083] (turtlesim) StdoutLine: {'line': b'[ 48%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[0.096256] (turtlesim) StdoutLine: {'line': b'[ 58%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[0.096509] (turtlesim) StdoutLine: {'line': b'[ 61%] Built target turtlesim__rosidl_typesupport_c\n'}
+[0.098931] (-) TimerEvent: {}
+[0.104348] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_teleop_key\x1b[0m\n'}
+[0.107143] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim_node\x1b[0m\n'}
+[0.107564] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target draw_square\x1b[0m\n'}
+[0.108388] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mimic\x1b[0m\n'}
+[0.122901] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[0.124145] (turtlesim) StdoutLine: {'line': b'[ 73%] Built target draw_square\n'}
+[0.126833] (turtlesim) StdoutLine: {'line': b'[ 75%] Built target mimic\n'}
+[0.130434] (turtlesim) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/turtle_teleop_key.dir/tutorials/teleop_turtle_key.cpp.o\x1b[0m\n'}
+[0.131472] (turtlesim) StdoutLine: {'line': b'[ 82%] Built target turtlesim_node\n'}
+[0.138674] (turtlesim) StdoutLine: {'line': b'[ 82%] Built target turtlesim\n'}
+[0.153896] (turtlesim) StdoutLine: {'line': b'[ 83%] Built target turtlesim__py\n'}
+[0.162956] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_generator_py\x1b[0m\n'}
+[0.176187] (turtlesim) StdoutLine: {'line': b'[ 92%] Built target turtlesim__rosidl_generator_py\n'}
+[0.185987] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[0.186982] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[0.187855] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[0.198371] (turtlesim) StdoutLine: {'line': b'[ 94%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[0.198996] (-) TimerEvent: {}
+[0.199640] (turtlesim) StdoutLine: {'line': b'[ 96%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.199882] (turtlesim) StdoutLine: {'line': b'[ 98%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[0.275137] (turtlesim) StdoutLine: {'line': b'running egg_info\n'}
+[0.275962] (turtlesim) StdoutLine: {'line': b'writing turtlesim.egg-info/PKG-INFO\n'}
+[0.276144] (turtlesim) StdoutLine: {'line': b'writing dependency_links to turtlesim.egg-info/dependency_links.txt\n'}
+[0.276336] (turtlesim) StdoutLine: {'line': b'writing top-level names to turtlesim.egg-info/top_level.txt\n'}
+[0.278035] (turtlesim) StdoutLine: {'line': b"reading manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[0.278353] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[0.296885] (turtlesim) StdoutLine: {'line': b'[ 98%] Built target ament_cmake_python_build_turtlesim_egg\n'}
+[0.299072] (-) TimerEvent: {}
+[0.399330] (-) TimerEvent: {}
+[0.499697] (-) TimerEvent: {}
+[0.600036] (-) TimerEvent: {}
+[0.700282] (-) TimerEvent: {}
+[0.800735] (-) TimerEvent: {}
+[0.901099] (-) TimerEvent: {}
+[1.001467] (-) TimerEvent: {}
+[1.101855] (-) TimerEvent: {}
+[1.202322] (-) TimerEvent: {}
+[1.302698] (-) TimerEvent: {}
+[1.403129] (-) TimerEvent: {}
+[1.503729] (-) TimerEvent: {}
+[1.604289] (-) TimerEvent: {}
+[1.704603] (-) TimerEvent: {}
+[1.805535] (-) TimerEvent: {}
+[1.905846] (-) TimerEvent: {}
+[2.006192] (-) TimerEvent: {}
+[2.106682] (-) TimerEvent: {}
+[2.207255] (-) TimerEvent: {}
+[2.307829] (-) TimerEvent: {}
+[2.408348] (-) TimerEvent: {}
+[2.508731] (-) TimerEvent: {}
+[2.609132] (-) TimerEvent: {}
+[2.709505] (-) TimerEvent: {}
+[2.809980] (-) TimerEvent: {}
+[2.910495] (-) TimerEvent: {}
+[3.010868] (-) TimerEvent: {}
+[3.111472] (-) TimerEvent: {}
+[3.211891] (-) TimerEvent: {}
+[3.312121] (-) TimerEvent: {}
+[3.412404] (-) TimerEvent: {}
+[3.512795] (-) TimerEvent: {}
+[3.613168] (-) TimerEvent: {}
+[3.713574] (-) TimerEvent: {}
+[3.814040] (-) TimerEvent: {}
+[3.914520] (-) TimerEvent: {}
+[4.014957] (-) TimerEvent: {}
+[4.115360] (-) TimerEvent: {}
+[4.215887] (-) TimerEvent: {}
+[4.316216] (-) TimerEvent: {}
+[4.416505] (-) TimerEvent: {}
+[4.516781] (-) TimerEvent: {}
+[4.617060] (-) TimerEvent: {}
+[4.717487] (-) TimerEvent: {}
+[4.817943] (-) TimerEvent: {}
+[4.918443] (-) TimerEvent: {}
+[5.018913] (-) TimerEvent: {}
+[5.119411] (-) TimerEvent: {}
+[5.219807] (-) TimerEvent: {}
+[5.320104] (-) TimerEvent: {}
+[5.420430] (-) TimerEvent: {}
+[5.520836] (-) TimerEvent: {}
+[5.621211] (-) TimerEvent: {}
+[5.721646] (-) TimerEvent: {}
+[5.821982] (-) TimerEvent: {}
+[5.922507] (-) TimerEvent: {}
+[6.022895] (-) TimerEvent: {}
+[6.123258] (-) TimerEvent: {}
+[6.223920] (-) TimerEvent: {}
+[6.227045] (turtlesim) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtle_teleop_key\x1b[0m\n'}
+[6.324000] (-) TimerEvent: {}
+[6.399213] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtle_teleop_key\n'}
+[6.408456] (turtlesim) CommandEnded: {'returncode': 0}
+[6.424093] (-) TimerEvent: {}
+[6.524316] (-) TimerEvent: {}
+[6.570891] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[6.576772] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/brunoconti/workspace/build/turtlesim'], 'cwd': '/home/brunoconti/workspace/build/turtlesim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HISTFILESIZE', '2000'), ('WARP_HONOR_PS1', '0'), ('USER', 'brunoconti'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/brunoconti'), ('OLDPWD', '/home/brunoconti/workspace/src'), ('TERM_PROGRAM_VERSION', 'v0.2024.04.16.08.02.stable_01'), ('DESKTOP_SESSION', 'ubuntu'), ('WARP_USE_SSH_WRAPPER', '1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/dev.warp.Warp.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1491'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1810'), ('WARP_COMBINED_PROMPT_COMMAND_GRID', '0'), ('GOROOT', '/usr/local/go'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3442'), ('COLCON_PREFIX_PATH', '/home/brunoconti/meu_workspace/src/ola_mundo/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'brunoconti'), ('JOURNAL_STREAM', '8:36046'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'brunoconti'), ('SSH_SOCKET_DIR', '~/.ssh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WARP_IS_LOCAL_SHELL_SESSION', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/go/bin:/home/brunoconti/go/binsource'), ('SESSION_MANAGER', 'local/Contis:@/tmp/.ICE-unix/1787,unix/Contis:/tmp/.ICE-unix/1787'), ('INVOCATION_ID', 'e03124bfea514d8992ee8696a19dcea0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'WarpTerminal'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/brunoconti/meu_workspace/src/ola_mundo/install/ola_mundo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('GOPATH', '/home/brunoconti/go'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/brunoconti/workspace/build/turtlesim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/brunoconti/meu_workspace/src/ola_mundo/install/ola_mundo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/brunoconti/meu_workspace/src/ola_mundo/install/ola_mundo:/opt/ros/humble')]), 'shell': False}
+[6.582589] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.582881] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[6.582984] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim\n'}
+[6.583049] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[6.583099] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[6.583145] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[6.583196] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[6.583246] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[6.583295] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[6.583343] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h\n'}
+[6.583393] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[6.583468] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h\n'}
+[6.583514] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[6.583563] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[6.583631] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h\n'}
+[6.583683] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h\n'}
+[6.583731] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[6.583779] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[6.583826] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[6.583877] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h\n'}
+[6.583946] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h\n'}
+[6.583994] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h\n'}
+[6.584044] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[6.584094] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[6.584145] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c\n'}
+[6.584194] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h\n'}
+[6.584245] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[6.584294] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h\n'}
+[6.584344] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[6.584394] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c\n'}
+[6.584444] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c\n'}
+[6.584507] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[6.584581] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h\n'}
+[6.584625] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h\n'}
+[6.584665] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h\n'}
+[6.584704] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h\n'}
+[6.584743] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h\n'}
+[6.584783] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[6.584842] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.584893] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[6.585117] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c\n'}
+[6.585260] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c\n'}
+[6.585361] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h\n'}
+[6.585483] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h\n'}
+[6.585551] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h\n'}
+[6.585687] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h\n'}
+[6.585788] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h\n'}
+[6.585910] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h\n'}
+[6.585979] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg/color.h\n'}
+[6.586118] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h\n'}
+[6.586568] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[6.586779] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[6.586965] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[6.587056] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim\n'}
+[6.587209] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[6.587319] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[6.587382] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[6.587518] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[6.587579] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[6.587784] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[6.587885] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[6.588014] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[6.588152] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[6.588237] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[6.588296] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[6.588491] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.588546] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[6.588781] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[6.588907] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[6.589740] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[6.590531] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim\n'}
+[6.590595] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[6.590838] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp\n'}
+[6.590918] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[6.590964] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[6.591046] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[6.591203] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[6.591249] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[6.591290] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp\n'}
+[6.591330] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp\n'}
+[6.591371] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp\n'}
+[6.591411] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp\n'}
+[6.591471] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[6.591511] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[6.591551] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp\n'}
+[6.591660] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp\n'}
+[6.591727] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[6.591781] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[6.591831] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[6.591896] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[6.591936] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[6.591975] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[6.592023] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[6.592072] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[6.592121] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp\n'}
+[6.592169] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[6.592217] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[6.592266] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[6.592320] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp\n'}
+[6.592396] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[6.592444] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp\n'}
+[6.592494] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[6.592543] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp\n'}
+[6.592591] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp\n'}
+[6.592641] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp\n'}
+[6.592703] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp\n'}
+[6.592765] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp\n'}
+[6.592825] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp\n'}
+[6.592883] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp\n'}
+[6.593129] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim\n'}
+[6.593289] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[6.593484] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[6.593630] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps\n'}
+[6.593816] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.593912] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[6.594038] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[6.594218] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.594333] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.594401] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps\n'}
+[6.594602] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.594734] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.594854] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.594918] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[6.594976] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[6.595411] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[6.595503] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.595550] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps\n'}
+[6.595606] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.595658] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.595699] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim\n'}
+[6.595742] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[6.595785] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[6.595862] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[6.595915] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[6.595965] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[6.596014] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[6.596062] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c\n'}
+[6.596110] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[6.596174] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[6.596212] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[6.596251] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[6.596288] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[6.596325] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c\n'}
+[6.596362] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[6.596399] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[6.596435] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[6.596473] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[6.596510] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.596546] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[6.596579] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[6.596615] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[6.596648] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c\n'}
+[6.596681] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c\n'}
+[6.596843] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[6.598137] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[6.598858] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim\n'}
+[6.598966] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[6.599135] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[6.599186] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.599379] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[6.599424] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[6.599481] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[6.599543] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.599586] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[6.599644] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.599684] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.599844] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[6.599904] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[6.599947] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.599987] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.600026] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[6.600065] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[6.600104] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[6.600143] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[6.600181] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp\n'}
+[6.600217] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.600250] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.600283] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[6.600553] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[6.601913] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[6.602704] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[6.602896] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[6.603084] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info\n'}
+[6.603144] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/brunoconti/workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/PKG-INFO\n'}
+[6.603578] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/brunoconti/workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/top_level.txt\n'}
+[6.603679] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/brunoconti/workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/dependency_links.txt\n'}
+[6.603769] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/brunoconti/workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/SOURCES.txt\n'}
+[6.603813] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim\n'}
+[6.603855] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py\n'}
+[6.603899] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.603943] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action\n'}
+[6.603985] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py\n'}
+[6.604045] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[6.604089] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py\n'}
+[6.604133] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.604178] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[6.604220] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/libturtlesim__rosidl_generator_py.so\n'}
+[6.604263] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv\n'}
+[6.604308] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[6.604350] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py\n'}
+[6.604408] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[6.604477] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py\n'}
+[6.604520] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen_s.c\n'}
+[6.604562] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill_s.c\n'}
+[6.604599] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[6.604653] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn_s.c\n'}
+[6.604743] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py\n'}
+[6.604796] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py\n'}
+[6.604894] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py\n'}
+[6.604997] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.605116] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[6.605180] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg\n'}
+[6.605407] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py\n'}
+[6.605462] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color_s.c\n'}
+[6.605593] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose_s.c\n'}
+[6.605695] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py\n'}
+[6.605815] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py\n'}
+[6.605882] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c\n'}
+[6.624412] (-) TimerEvent: {}
+[6.628378] (turtlesim) StdoutLine: {'line': b"Listing '/home/brunoconti/workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim'...\n"}
+[6.628521] (turtlesim) StdoutLine: {'line': b"Listing '/home/brunoconti/workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action'...\n"}
+[6.628574] (turtlesim) StdoutLine: {'line': b"Listing '/home/brunoconti/workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg'...\n"}
+[6.628620] (turtlesim) StdoutLine: {'line': b"Listing '/home/brunoconti/workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv'...\n"}
+[6.631264] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.631403] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.632079] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.633311] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so\n'}
+[6.633607] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[6.633775] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[6.633980] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[6.634240] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[6.634460] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[6.634622] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[6.634855] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[6.635078] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[6.635149] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[6.635335] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[6.635404] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[6.635444] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[6.635483] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[6.635523] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[6.635561] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[6.635671] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[6.635741] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[6.635787] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[6.635841] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[6.635945] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[6.636165] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[6.636370] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[6.636529] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[6.636763] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[6.637016] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[6.637221] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[6.638045] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[6.639153] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/brunoconti/workspace/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[6.645563] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/brunoconti/workspace/install/turtlesim/lib/turtlesim/turtle_teleop_key" to ""\n'}
+[6.646405] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/lib/turtlesim/draw_square\n'}
+[6.647893] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/lib/turtlesim/mimic\n'}
+[6.648337] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/images\n'}
+[6.648385] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/images/humble.png\n'}
+[6.648426] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/images/galactic.png\n'}
+[6.648465] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[6.648504] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[6.648544] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[6.648591] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[6.648629] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/images/rolling.png\n'}
+[6.648669] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[6.648709] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[6.648753] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/launch\n'}
+[6.648816] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[6.648855] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[6.648892] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[6.648930] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[6.649039] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[6.649196] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[6.649445] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[6.649604] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[6.649813] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[6.650058] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[6.650300] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[6.650510] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/package.dsv\n'}
+[6.651585] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[6.652117] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake\n'}
+[6.652179] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.652666] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[6.652706] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[6.652752] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake\n'}
+[6.652799] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[6.652846] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[6.652893] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.652940] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.653003] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[6.653050] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.653095] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.653142] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.653188] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[6.653236] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.653292] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport.cmake\n'}
+[6.653371] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport-noconfig.cmake\n'}
+[6.653600] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[6.653914] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.654098] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.654325] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.654568] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.654827] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.655037] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.655300] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[6.655450] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[6.655723] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/brunoconti/workspace/install/turtlesim/share/turtlesim/package.xml\n'}
+[6.658839] (turtlesim) CommandEnded: {'returncode': 0}
+[6.724501] (-) TimerEvent: {}
+[6.805689] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[6.806174] (-) EventReactorShutdown: {}

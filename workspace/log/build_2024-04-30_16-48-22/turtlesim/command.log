@@ -1,0 +1,4 @@
+Invoking command in '/home/brunoconti/workspace/build/turtlesim': CMAKE_PREFIX_PATH=/home/brunoconti/meu_workspace/src/ola_mundo/install/ola_mundo:/opt/ros/humble /usr/bin/cmake --build /home/brunoconti/workspace/build/turtlesim -- -j8 -l8
+Invoked command in '/home/brunoconti/workspace/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/home/brunoconti/meu_workspace/src/ola_mundo/install/ola_mundo:/opt/ros/humble /usr/bin/cmake --build /home/brunoconti/workspace/build/turtlesim -- -j8 -l8
+Invoking command in '/home/brunoconti/workspace/build/turtlesim': CMAKE_PREFIX_PATH=/home/brunoconti/meu_workspace/src/ola_mundo/install/ola_mundo:/opt/ros/humble /usr/bin/cmake --install /home/brunoconti/workspace/build/turtlesim
+Invoked command in '/home/brunoconti/workspace/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/home/brunoconti/meu_workspace/src/ola_mundo/install/ola_mundo:/opt/ros/humble /usr/bin/cmake --install /home/brunoconti/workspace/build/turtlesim
