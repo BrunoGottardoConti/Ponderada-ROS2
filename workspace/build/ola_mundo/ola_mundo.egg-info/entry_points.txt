@@ -1,3 +1,0 @@
-[console_scripts]
-fausto_silva = ola_mundo.teste:main
-
